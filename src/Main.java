@@ -34,6 +34,7 @@ public class Main extends JFrame {
         this.add(new GamePanel());
         this.setVisible(true);
 
+        //
     }
     private static void resizeImage(File originalImage, File resizeImage, int wideth, int height, String format){
         try{
